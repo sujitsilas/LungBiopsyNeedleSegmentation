@@ -11,6 +11,7 @@ conda clean --all
 #### 2. Load the conda module (adjust the module name/version as necessary)
 ```bash
 module load conda/23.11.0
+module load python #if needed
 ```
 #### 3. Create a conda environment and activate it
 ```bash
