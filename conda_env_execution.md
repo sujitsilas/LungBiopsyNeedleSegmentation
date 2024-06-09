@@ -1,5 +1,5 @@
 
-# Creating a conda virtual environment on Hoffman2 (https://www.hoffman2.idre.ucla.edu/)
+# [Creating a conda virtual environment on Hoffman2](https://www.hoffman2.idre.ucla.edu/)
 
 ## Setup Instructions
 
@@ -26,13 +26,13 @@ pip install matplotlib pandas torch torchvision tqdm albumentations Pillow openc
 conda deactivate
 ```
 
-
 ### Request interactive GPUs and try running an executable bash script
 ### cuda represent the number of GPUs you want. Can request up to 4 v100s on hoffman
 ```bash
 qrsh -l gpu,A100,cuda=1,h_rt=2:00:00 -pe shared 2 
 ```
-#### Interactive session (if needed)
+
+#### Interactive session with CPUs (if needed)
 ```bash
 qrsh -l h_data=15G,h_rt=3:00:00,h_vmem=4G -pe shared 4
 ```
