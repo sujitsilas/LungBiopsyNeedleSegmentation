@@ -12,7 +12,7 @@ conda clean --all
 ```bash
 module load conda/23.11.0
 ```
-### Create a conda environment and it
+### Create a conda environment and activate it
 ```bash
 conda create -y -p /u/project/pallard/sujit009/Segmentation/my_dl_env python=3.11.6
 conda activate /u/project/pallard/sujit009/Segmentation/my_dl_env
