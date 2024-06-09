@@ -9,7 +9,12 @@ import torch.utils.data
 #####     UNET     #####
 ########################
 
+"""
+UNET implementation credits
+GitHub @aladdinpersson
+https://github.com/aladdinpersson/Machine-Learning-Collection/blob/master/ML/Pytorch/image_segmentation/semantic_segmentation_unet/model.py
 
+"""
 class DoubleConv(nn.Module):
     def __init__(self, in_channels, out_channels):
         super(DoubleConv, self).__init__()
