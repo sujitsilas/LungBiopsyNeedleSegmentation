@@ -4,6 +4,8 @@ Segmentation has become an essential component in a wide range of applications, 
 
 The goal of this study is to segment lung biopsy needles in CT scans. We utilize a U-Net architecture with a pretrained VGG16 backbone to perform binary segmentation of biopsy needles in CT scans. Our model achieves a sensitivity of 0.5084, an F1Score of 0.4705, and a composite score of 0.4950 calculated as the weighted mean of the dice score and sensitivity.
 
+
+### Results
 ![Example Segmentation](example_segmentation.png)
 
 
