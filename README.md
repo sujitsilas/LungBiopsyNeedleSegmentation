@@ -1,6 +1,7 @@
 # Lung Biopsy Needle Segmentation in CT Scans
 
-Segmentation has become an essential component in a wide range of applications, from enhancing the self-driving capabilities of vehicles to facilitating medical image analysis. It involves partitioning images into multiple segments to distinguish between regions of interest and other regions [1]. Medical image segmentation is a critical component in a clinical setting that can aid in diagnosis, treatment planning, and disease monitoring over time [2]. The goal of this study is to segment lung biopsy needles in CT scans. We utilize a U-Net architecture with a pretrained VGG16 backbone to perform binary segmentation of biopsy needles in CT scans. Our model achieves a precision of 0.5819 and a composite score of 0.5322, calculated as the weighted mean of the dice score and sensitivity.
+Segmentation has become an essential component in a wide range of applications, from enhancing the self-driving capabilities of vehicles to facilitating medical image analysis. It involves partitioning images into multiple segments to distinguish between regions of interest and other regions [1]. Medical image segmentation is a critical component in a clinical setting that can aid in diagnosis, treatment planning, and disease monitoring over time [2]. The goal of this study is to segment lung biopsy needles in CT scans. We utilize a U-Net architecture with a pretrained VGG16 backbone to perform binary segmentation on biopsy needles in CT scans. Our model achieves a sensitivity of 0.5084, an F1Score of 0.4705, and a composite score of 0.4950 calculated as a the weighted mean of the dice score and sensitivity.
+
 
 ### Keywords
 
