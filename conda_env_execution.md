@@ -3,25 +3,25 @@
 
 ## Setup Instructions
 
-#### Clear conda cache
+#### 1. Clear conda cache
 ```bash
 conda clean --all
 ```
 
-#### Load the conda module (adjust the module name/version as necessary)
+#### 2. Load the conda module (adjust the module name/version as necessary)
 ```bash
 module load conda/23.11.0
 ```
-#### Create a conda environment and activate it
+#### 3. Create a conda environment and activate it
 ```bash
 conda create -y -p /u/project/pallard/sujit009/Segmentation/my_dl_env python=3.11.6
 conda activate /u/project/pallard/sujit009/Segmentation/my_dl_env
 ```
-#### Install the required packages
+#### 4. Install the required packages
 ```bash
 pip install matplotlib pandas torch torchvision tqdm albumentations Pillow opencv-python
 ```
-#### Deactivate the conda environment
+#### 5. Deactivate the conda environment
 ```bash
 conda deactivate
 ```
