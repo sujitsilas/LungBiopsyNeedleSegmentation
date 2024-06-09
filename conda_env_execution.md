@@ -1,6 +1,5 @@
 
-# Creating a conda virtual environment on Hoffman2
-
+# Creating a conda virtual environment on Hoffman2 (https://www.hoffman2.idre.ucla.edu/)
 
 ## Setup Instructions
 
