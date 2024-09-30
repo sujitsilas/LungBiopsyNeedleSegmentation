@@ -20,7 +20,7 @@ conda activate /u/project/pallard/sujit009/Segmentation/my_dl_env
 ```
 #### 4. Install the required packages
 ```bash
-pip install matplotlib pandas torch torchvision tqdm albumentations Pillow opencv-python
+pip install --user matplotlib pandas torch torchvision tqdm albumentations Pillow opencv-python scikit-learn
 ```
 #### 5. Deactivate the conda environment
 ```bash
